@@ -24,6 +24,7 @@
 
   </div>
 </template>
+
 <script>
 export default {
   name: "AddTodolist",

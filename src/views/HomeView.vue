@@ -2,7 +2,7 @@
   <div class="row justify-content-center">
     <add v-if="showAdd" @added="fetchData"></add>
     <edit v-if="showEdit" @edited="edited" :id="thisItem"></edit>
-    <card
+    <card class="col-lg-10 col-8"
       v-for="(todo, index) in todosData"
       :key="index"
       :title="todo.title"
@@ -59,6 +59,7 @@ export default {
   },
 };
 </script>
+
 <style scoped>
 .row {
   margin-right: 0;
