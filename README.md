@@ -24,7 +24,7 @@ npm i
 Run the app with 
 
 ```bash
-npm run dev
+npm run serve
 ```
 
 
