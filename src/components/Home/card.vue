@@ -1,19 +1,19 @@
 <template>
-  <div class="card col-11 row">
+  <div class="card col-lg-11 col-10 row">
     <router-link :to="'/Todo/' + id" class="card-body col-5">
       <div class="blockquote mb-0">
         <p>{{ title }}</p>
         <p class="blockquote-footer">
           {{ description }}
         </p>
-        <p class="card-text text-muted">{{ date }}</p>
+        <p class="card-text text-muted pe-2">{{ date }}</p>
       </div>
     </router-link>
-    <div class="col-2 actions row">
-      <button type="button" @click="editItem" class="btn btn-outline-warning">
+    <div class="col-sm-4 col-6 justify-content-center actions row">
+      <button type="button" @click="editItem" class="btn btn-outline-warning col-sm-8 col-10">
         Edit
       </button>
-      <button type="button" @click="deleteItem" class="btn btn-outline-danger">
+      <button type="button" @click="deleteItem" class="btn btn-outline-danger col-sm-8 col-10">
         Delete
       </button>
     </div>

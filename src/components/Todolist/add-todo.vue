@@ -1,6 +1,6 @@
 <template>
-  <div class="add-sec">
-    <div class="input-group mb-3 row">
+  <div class="add-sec row">
+    <div class="input-group mb-3">
       <div>
         <input
           type="text"
@@ -97,6 +97,7 @@ export default {
   },
 };
 </script>
+
 <style scoped>
 .error{
   color: #c02828;
